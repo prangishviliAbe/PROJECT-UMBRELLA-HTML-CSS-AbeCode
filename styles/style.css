@@ -187,6 +187,7 @@
 .search-form input {
 	width: 600px;
 	padding: 12px;
+	font-family: bpg nino mtavruli;
 }
 
 @media only screen and (max-width: 600px) {
