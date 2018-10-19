@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'BPG Nino Mtavruli';
+    src: url('../fonts/bpg-nino-mtavruli-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mtavruli-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mtavruli-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mtavruli-webfont.svg#bpg_nino_mtavruliregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'BPG Nino Mtavruli Bold';
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-nino-mtavruli-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-nino-mtavruli-bold-webfont.svg#bpg_nino_mtavrulibold') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'BPG Ingiri Arial';
+    src: url('../fonts/bpg-ingiri-arial-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bpg-ingiri-arial-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bpg-ingiri-arial-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bpg-ingiri-arial-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/bpg-ingiri-arial-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bpg-ingiri-arial-webfont.svg#bpg_ingiri_arialregular') format('svg'); /* Legacy iOS */
+}
+
+
+.inline-block {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.align {
+	vertical-align: middle;
+}
+
+.absolute-pos {
+	position: absolute;
+}
+
+.relative-pos {
+	position: relative;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+
+.clearfix:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+
+
+
+
+
+
+.container {
+	max-width: 1140px;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+.logo {
+	padding: 5px;
+}
+.logo img {
+	width: 110px;
+	vertical-align: middle;
+}
+
+.navigation-menu {
+	top: 0;
+	right: 0;
+	line-height: 7;
+	height: 100%;
+	font-family: bpg nino mtavruli;
+}
+
+.menu-ul {
+	height: 120px;
+}
+.menu-li {
+	height: 120px;
+}
+
+.menu-a {
+	padding: 0 20px;
+	display: block;
+	height: 120px;
+}
+.menu-a.active {
+	background-color: red;
+	color: white;
+}
+
+.menu-a:hover {
+	background-color: silver;
+	color: white;
+}
+
+
+.banner-w {
+	background-image: url('../images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	display: block;
+	height: 480px;
+	box-shadow: 0 5px 8px -6px black;
+
+}
+
+
+.box {
+	 background-color: #0000006b;
+	 width: 500px;
+	 padding: 40px;
+	 color: white;
+	 float: right;
+	 top: 50%;
+	 font-family: bpg nino mtavruli;
+	 box-shadow: 0 5px 8px -6px black;
+
+}
